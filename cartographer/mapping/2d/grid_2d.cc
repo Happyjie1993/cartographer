@@ -19,6 +19,7 @@ namespace cartographer {
 namespace mapping {
 namespace {
 
+// 测试：添加第一条中文注释
 float MinCorrespondenceCostFromProto(const proto::Grid2D& proto) {
   if (proto.min_correspondence_cost() == 0.f &&
       proto.max_correspondence_cost() == 0.f) {
